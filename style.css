@@ -1,6 +1,6 @@
 body{
-    background-color:#B3E2BF;
-    color:green;
+    background-color:#FFE2F6;
+    color:palevioletred;
 }
 nav ul{ display: flex;
     flex-wrap: wrap;
@@ -10,8 +10,8 @@ nav ul{ display: flex;
 }
 nav li{
     list-style: none;
-    background-color: #C4F5DA;
-    color: #429E5B;
+    background-color: #C2A0BF;
+    color: pink;
     margin: 0;
     flex: 1;
     min-width: 200px;
@@ -23,11 +23,11 @@ nav a, nav a:visited{
     text-decoration: none;
     width: 100%;
     padding: 8px 0px;
-    color: #429E5B;
+    color:purple;
 }
 nav a:hover, nav a.active {
-    color: #B3E2BF;
-    background-color: #429E5B;
+    color: #FFE2FC;
+    background-color: darkmagenta;
 }
 .dropdown-content
 {
@@ -45,4 +45,13 @@ nav li:hover .dropdown-content{
 }
 .dropdown-content ul {
     flex-direction: column;
+}
+.verdana{
+    font-family:"Verdana",Verdana,sans-serif;
+}
+.georgia{
+    font-family: Georgia,serif;
+}
+.courier{
+    font-family: "Courier New",courier,monospace;
 }
